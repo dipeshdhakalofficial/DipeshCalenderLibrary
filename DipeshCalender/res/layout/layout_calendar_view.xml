@@ -9,7 +9,7 @@
         android:id="@+id/buttonlayout"
         android:layout_width="fill_parent"
         android:layout_height="40dp"
-        android:background="@color/vortex_theme"
+        android:background="@color/calender_theme"
         android:gravity="left|top"
         android:height="40dp"
         android:orientation="horizontal" >
@@ -67,35 +67,35 @@
 	    android:layout_width="wrap_content"
 	    android:layout_weight="1"
 	    android:gravity="center"
-	    android:textColor="@color/vortex_theme"
+	    android:textColor="@color/calender_theme"
 	    android:text="MON"/>
 	<TextView 
 	    android:layout_height="wrap_content" 
 	    android:layout_width="wrap_content"
 	    android:layout_weight="1"
 	    android:gravity="center"
-	    android:textColor="@color/vortex_theme"
+	    android:textColor="@color/calender_theme"
 	    android:text="TUE"/>
 	<TextView 
 	    android:layout_height="wrap_content" 
 	    android:layout_width="wrap_content"
 	    android:layout_weight="1"
 	    android:gravity="center"
-	    android:textColor="@color/vortex_theme"
+	    android:textColor="@color/calender_theme"
 	    android:text="WED"/>
 	<TextView 
 	    android:layout_height="wrap_content" 
 	    android:layout_width="wrap_content"
 	    android:layout_weight="1"
 	    android:gravity="center"
-	    android:textColor="@color/vortex_theme"
+	    android:textColor="@color/calender_theme"
 	    android:text="THU"/>
 	<TextView 
 	    android:layout_height="wrap_content" 
 	    android:layout_width="wrap_content"
 	    android:layout_weight="1"
 	    android:gravity="center"
-	    android:textColor="@color/vortex_theme"
+	    android:textColor="@color/calender_theme"
 	    android:text="FRI"/>
 	<TextView 
 	    android:layout_height="wrap_content" 

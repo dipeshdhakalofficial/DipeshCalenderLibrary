@@ -127,6 +127,7 @@ int color abc_search_url_text_pressed 0x7f070002
 int color abc_search_url_text_selected 0x7f070001
 int color black 0x7f07000e
 int color blue 0x7f070014
+int color calender_theme 0x7f070003
 int color dark 0x7f07001a
 int color darkblue 0x7f070008
 int color darkgreen 0x7f07000a
@@ -150,7 +151,6 @@ int color red 0x7f070007
 int color sky 0x7f070016
 int color static_text_color 0x7f070011
 int color symptom_color_selected 0x7f07000f
-int color vortex_theme 0x7f070003
 int color white 0x7f07000d
 int dimen abc_action_bar_default_height 0x7f080002
 int dimen abc_action_bar_icon_vertical_padding 0x7f080003
