@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/lightgray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/buttonlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/vortex_theme"
+        android:gravity="left|top"
+        android:height="40dp"
+        android:orientation="horizontal" >
+
+        
+
+        <ImageView
+            android:id="@+id/prevMonth"
+            android:layout_width="20sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:src="@drawable/calendar_left_arrow_selector" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/currentMonth"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/nextMonth"
+            android:layout_width="20sp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="10sp"
+            android:src="@drawable/calendar_right_arrow_selector" >
+        </ImageView>
+
+        
+    </LinearLayout>
+
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:weightSum="7"
+        android:orientation="horizontal" >
+	<TextView 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:textColor="@color/red"
+	    android:text="SUN"/>
+	<TextView 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:textColor="@color/vortex_theme"
+	    android:text="MON"/>
+	<TextView 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:textColor="@color/vortex_theme"
+	    android:text="TUE"/>
+	<TextView 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:textColor="@color/vortex_theme"
+	    android:text="WED"/>
+	<TextView 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:textColor="@color/vortex_theme"
+	    android:text="THU"/>
+	<TextView 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:textColor="@color/vortex_theme"
+	    android:text="FRI"/>
+	<TextView 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:textColor="@color/red"
+	    android:text="SAT"/>
+     
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/calendar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="7" >
+    </GridView>
+
+</LinearLayout>
