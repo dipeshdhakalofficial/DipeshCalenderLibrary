@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 /**
+ * 
  * @author dipesh
  *
  */
@@ -21,6 +22,7 @@ public class EventsDialog extends DialogFragment  implements View.OnClickListene
 	TextView tvdate,tvtype,tvdecsription,tvshift;
 	Button btnok;
 	String date,title,decription;
+	
 	
 	public EventsDialog(String date,String title, String descrption) {
 		this.date= date;
