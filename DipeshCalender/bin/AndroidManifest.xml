@@ -22,7 +22,7 @@
         android:icon="@drawable/ic_launcher" >
         <activity
             android:name="com.dipesh.library.calender.CalenderActivity"
-            android:theme="@style/Theme.Base.AppCompat.Light"  >
+            android:theme="@style/Theme.AppCompat.Light"  >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

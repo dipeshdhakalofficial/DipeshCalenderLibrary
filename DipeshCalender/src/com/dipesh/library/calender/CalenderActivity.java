@@ -9,12 +9,14 @@ import java.util.Locale;
 import com.dipesh.library.calender.dto.EventsDto;
 import com.example.testproject.R;
 
+import android.R.animator;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.text.format.DateFormat;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.GestureDetector.SimpleOnGestureListener;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -118,6 +120,7 @@ public class CalenderActivity extends ActionBarActivity implements OnClickListen
 		Log.d(tag, "Setting Next Month in GridCellAdapter: " + "Month: "+ month + " Year: " + year);
 		setGridCellAdapterToDate(month, year);
 	}
+	
 	public void showPrevious(){
 		if (month <= 1) {
 			month = 12;
@@ -158,10 +161,10 @@ public class CalenderActivity extends ActionBarActivity implements OnClickListen
                         if (diffX > 0) {
                             showPrevious();
                         } else {
-                        	 showNext();
+                        	showNext();
                         }
                     }
-                    }
+                }
                     result = true;
               
             } catch (Exception exception) {
@@ -180,5 +183,12 @@ public class CalenderActivity extends ActionBarActivity implements OnClickListen
 		 return gestureDetector.onTouchEvent(event);
 	}
 
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		if(item.getItemId() == android.R.id.home){
+			finish();
+		}
+		return true;
+	}
 	
 }
