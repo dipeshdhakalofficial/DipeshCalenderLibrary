@@ -1,7 +1,6 @@
 DipeshCalenderLibrary
 =====================
 
-<h1>DipeshCalenderLibrary</h1>
 <h2>Purpose</h2>
 
 <p>This Calender Library is the easy way to integrate calender on your android application. The library opens Calender activity inside the app once the library is called. Programmers can also add the event on any date which will be saved to app's sqllite database. Now, when user clicks on that date of calender gridview, the event and description will be shown. Also, event days are marked red in the calender and current day is marked blue. The calender can also be periodically updated by deleting all previous events and adding new events programatically. This library also provides the function to notify user a day before the event date by poping notification using AlarmManager. However programmers can choose whether to show notifications or not for a particular event.</p>
